@@ -11,7 +11,7 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-// I principali tipi di dato sono: numeri, stringhe, boolean, undefined, null.
+// I principali tipi di dato sono: numeri, stringhe, boolean(vero e falso), undefined (assenza di valore,molto probabilmente una mancanza non intenzionale, una dimenticanza.), null (indica assenza di valore intenzionale)
 let numero = 5;
 console.log("questo è un numero", numero, typeof numero);
 
