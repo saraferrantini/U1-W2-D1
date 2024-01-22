@@ -31,7 +31,7 @@ console.log("questo è nullo", dog, typeof dog);
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let myName = "sara";
+const myName = "sara";
 console.log(myName);
 
 /* ESERCIZIO 3
@@ -55,12 +55,7 @@ console.log(x);
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-myName = "ferrantini";
-console.log(myName);
-const veroNome = "sara";
-console.log(veroNome);
-// veroNome = "ferrantini";
-// console.log(veroNome);
+// let myName = "ferrantini";
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
